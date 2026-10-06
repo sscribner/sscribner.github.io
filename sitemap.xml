@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sscribner.github.io/about.html</loc>
-    <lastmod>2026-09-12T19:21:59.025Z</lastmod>
+    <loc>https://sscribner.github.io/cv.html</loc>
+    <lastmod>2026-10-06T20:36:17.635Z</lastmod>
   </url>
   <url>
     <loc>https://sscribner.github.io/index.html</loc>
-    <lastmod>2026-09-12T19:21:59.025Z</lastmod>
+    <lastmod>2026-10-06T20:36:17.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sscribner.github.io/contact.html</loc>
+    <lastmod>2026-10-06T20:36:17.486Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sscribner.github.io/projects.html</loc>
+    <lastmod>2026-10-06T20:36:17.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sscribner.github.io/about.html</loc>
+    <lastmod>2026-10-06T20:48:13.508Z</lastmod>
   </url>
 </urlset>

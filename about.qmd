@@ -1,5 +1,35 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+![](images/headshot.jpg){.profile fig-alt="Photo of Sara Scribner"}
+:::
+::: {.g-col-12 .g-col-md-8}
+Hi! I'm **Sara Scribner**, an analyst at **Sephora Media Network** and a graduate student in **Applied Business Analytics at Boston University**. I started in psychology and math, moved through store operations and product management, and now I work with data every day to show what's really driving performance.
+
+I like seeing a problem from every angle: the stakeholder, the end user, and the business. And I care about amplifying the voice or the detail that's easy to overlook. 🌸
+:::
+:::
+
+## Interests
+
+- 📈 Retail media and campaign analytics
+- 🛍️ Product management and customer experience
+- 🎀 Machine learning and predictive modeling
+- ⚡ Big data processing with Apache Spark
+- 📊 Data storytelling and visualization
+
+## Education
+
+- **Master of Science in Applied Business Analytics**, Boston University, expected May 2027
+- **Bachelor of Arts in Psychology, Minor in Mathematics**, Western Connecticut State University, May 2024
+
+## Skills
+
+[Data analysis]{.tag} [Tableau]{.tag} [Report automation]{.tag} [Campaign metrics (ROAS, CPC, CPM, CTR)]{.tag} [Market research]{.tag} [User stories & requirements]{.tag} [Jira]{.tag} [Stakeholder communication]{.tag}
+
+## Career Goals
+
+I'm looking for **data analyst or analytics roles** where I can combine business, research, and technical skills to help teams make better decisions, especially in **retail, media, and consumer products**. I want to build analysis that is accurate, clear, and centered on the client. 💖

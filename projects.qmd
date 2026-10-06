@@ -1,0 +1,53 @@
+---
+title: "Projects"
+---
+
+A few things I've built in my graduate coursework and at work. 💻
+
+::: {.grid}
+
+::: {.g-col-12}
+::: {.project-card}
+<span class="emoji">🌸</span>
+
+### Job Market Analysis with PySpark
+Analyzed a 2026 job postings dataset (21 Parquet files) to see how salary and demand vary across the market. I cleaned the data in PySpark, filled missing salaries with medians, and built interactive Plotly charts in a custom pink theme.
+
+**What I found:**
+
+- Project management specialists have the most postings by far, at about 111k.
+- Salaries show the widest spread around one year of experience, and the spread narrows as education level rises.
+- Full-time roles have the tightest salary ranges, while part-time roles have the lowest.
+- Remote roles span the widest range of experience requirements, and onsite roles cluster at 5-10 years.
+
+[PySpark]{.tag} [Plotly]{.tag} [Parquet]{.tag} [Data cleaning]{.tag} [Visualization]{.tag}
+
+[View on GitHub](https://github.com/met-ad-688/688-f26-o1-m03-a-sscribner){.btn-soft}
+:::
+:::
+
+::: {.g-col-12}
+::: {.project-card}
+<span class="emoji">💻</span>
+
+### California Tech Job Market Analysis
+Ran four queries on a job postings dataset to answer practical career questions about pay, remote work, and hiring timing in California's tech industry, then turned each result into a chart with written insights.
+
+**What I found:**
+
+- Median salaries for specialized tech occupations range from about $90k to $255k, with most sitting near $150k.
+- ServiceNow leads California companies with 65 remote job postings, well ahead of Western Digital and SanDisk at 40 each.
+- Job posting volume stays steady until a mid-year spike in June, then drops to just above baseline.
+- Among the metro areas in the data, Washington, DC has the highest average salary, with New York close behind and Dallas much lower.
+
+![Median salary by specialized occupation in the technology industry](images/ca-salary-by-occupation.jpg){fig-alt="Bar chart of median salary by specialized tech occupation"}
+
+![Top 5 California companies by number of remote job postings](images/ca-remote-jobs.jpg){fig-alt="Bar chart of the top 5 California companies by remote job postings" width=60%}
+
+[Python]{.tag} [Plotly]{.tag} [Data visualization]{.tag} [Job market analysis]{.tag}
+
+[View on GitHub](https://github.com/met-ad-688/688-f26-o1-m02-a-sscribner){.btn-soft}
+:::
+:::
+
+:::

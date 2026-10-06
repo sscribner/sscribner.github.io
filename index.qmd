@@ -1,11 +1,29 @@
 ---
-title: "Welcome to My Website"
-author: "Sara Scribner"
-date: "2026-09-05"
-format:
-  html:
-    theme: journal
-    toc: true
+title: ""
+page-layout: article
 ---
-# Hello, World!  
-Welcome to my Quarto website.  
+
+::: {.hero}
+# Hi, I'm Sara ✨
+Analyst and MS Applied Business Analytics student turning retail media and customer data into clear, useful insights.
+
+[Meet me 💕](about.qmd){.btn-pink}
+[See my projects 🎀](projects.qmd){.btn-soft}
+:::
+
+## What I'm into
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+**📈 Retail media analytics**  
+Campaign performance, ROAS, CPC, CPM, and CTR.
+:::
+::: {.g-col-12 .g-col-md-4}
+**🛍️ Product and customer experience**  
+Research, user stories, and aligning teams around client needs.
+:::
+::: {.g-col-12 .g-col-md-4}
+**⚡ Big data and machine learning**  
+Spark, cloud analytics, and predictive modeling.
+:::
+:::

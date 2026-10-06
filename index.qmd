@@ -1,29 +1,35 @@
 ---
 title: ""
-page-layout: article
+page-layout: full
 ---
 
-::: {.hero}
-# Hi, I'm Sara ✨
-Analyst and MS Applied Business Analytics student turning retail media and customer data into clear, useful insights.
+```{=html}
+<section class="hero-stage">
+  <h1 class="sr-only">Sara Scribner</h1>
+  <div class="board" id="name-board" role="img" aria-label="Letter tiles spelling Sara Scribner"></div>
+  <p class="hero-role">Analyst, Sephora Media Network</p>
+  <p class="hero-sub">Master of Science in Applied Business Analytics, Boston University</p>
+  <p class="hint" id="name-hint" aria-live="polite">Hover to arrange my name.</p>
+  <noscript><p class="hero-role">Sara Scribner</p></noscript>
+</section>
 
-[Meet me 💕](about.qmd){.btn-pink}
-[See my projects 🎀](projects.qmd){.btn-soft}
-:::
+<section class="wide statement">
+  <p>I turn retail media and customer data into clear, useful insights, and I care most about the detail that's easy to overlook.</p>
+</section>
 
-## What I'm into
+<section class="wide why" id="why">
+  <h2>Why word games?</h2>
+  <div class="why-body">
+    <p>I love word puzzles, and I think analysis works the same way. You start with scattered pieces, and the work is finding the arrangement that makes sense.</p>
+    <p>That's why my name begins scrambled on this page, and why my skills appear as a crossword on the About page. Hover over the tiles above and they fall into place.</p>
+    <p><a class="btn-line" href="about.html#skills">See the skills crossword</a></p>
+  </div>
+</section>
 
-::: {.grid}
-::: {.g-col-12 .g-col-md-4}
-**📈 Retail media analytics**  
-Campaign performance, ROAS, CPC, CPM, and CTR.
-:::
-::: {.g-col-12 .g-col-md-4}
-**🛍️ Product and customer experience**  
-Research, user stories, and aligning teams around client needs.
-:::
-::: {.g-col-12 .g-col-md-4}
-**⚡ Big data and machine learning**  
-Spark, cloud analytics, and predictive modeling.
-:::
-:::
+<nav class="wide index-list" aria-label="Site sections">
+  <a class="index-row" href="about.html"><span class="ir-title">About</span><span class="ir-desc">Background, education, and how I approach data.</span></a>
+  <a class="index-row" href="projects.html"><span class="ir-title">Projects</span><span class="ir-desc">Selected analytics work from my graduate studies.</span></a>
+  <a class="index-row" href="cv.html"><span class="ir-title">Curriculum Vitae</span><span class="ir-desc">Experience, education, and a downloadable PDF.</span></a>
+  <a class="index-row" href="contact.html"><span class="ir-title">Contact</span><span class="ir-desc">For opportunities and collaborations.</span></a>
+</nav>
+```

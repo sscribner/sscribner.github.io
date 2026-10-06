@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sara Scribner</title>
+<title>Projects – Sara Scribner</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -123,44 +123,81 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Projects</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<section class="hero-stage">
-  <h1 class="sr-only">Sara Scribner</h1>
-  <div class="board" id="name-board" role="img" aria-label="Letter tiles spelling Sara Scribner"></div>
-  <p class="hero-role">Analyst, Sephora Media Network</p>
-  <p class="hero-sub">Master of Science in Applied Business Analytics, Boston University</p>
-  <p class="hint" id="name-hint" aria-live="polite">Hover to arrange my name.</p>
-  <noscript><p class="hero-role">Sara Scribner</p></noscript>
-</section>
-
-<section class="wide statement">
-  <p>I turn retail media and customer data into clear, useful insights, and I care most about the detail that's easy to overlook.</p>
-</section>
-
-<section class="wide why" id="why">
-  <h2 class="anchored">Why word games?</h2>
-  <div class="why-body">
-    <p>I love word puzzles, and I think analysis works the same way. You start with scattered pieces, and the work is finding the arrangement that makes sense.</p>
-    <p>That's why my name begins scrambled on this page, and why my skills appear as a crossword on the About page. Hover over the tiles above and they fall into place.</p>
-    <p><a class="btn-line" href="about.html#skills">See the skills crossword</a></p>
+    
+  
+    
   </div>
-</section>
+  
 
-<nav class="wide index-list" aria-label="Site sections">
-  <a class="index-row" href="about.html"><span class="ir-title">About</span><span class="ir-desc">Background, education, and how I approach data.</span></a>
-  <a class="index-row" href="projects.html"><span class="ir-title">Projects</span><span class="ir-desc">Selected analytics work from my graduate studies.</span></a>
-  <a class="index-row" href="cv.html"><span class="ir-title">Curriculum Vitae</span><span class="ir-desc">Experience, education, and a downloadable PDF.</span></a>
-  <a class="index-row" href="contact.html"><span class="ir-title">Contact</span><span class="ir-desc">For opportunities and collaborations.</span></a>
-</nav>
+
+</header>
+
+
+<p>Selected analytics work from my graduate studies.</p>
+<div class="work">
+<div class="work-meta">
+<p><strong>Tools</strong><br>
+PySpark, Plotly, Parquet</p>
+<p><strong>Code</strong><br>
+<a href="https://github.com/met-ad-688/688-f26-o1-m03-a-sscribner">View the repository</a></p>
+</div>
+<section id="job-market-analysis-with-pyspark" class="level2 work-body">
+<h2 class="anchored" data-anchor-id="job-market-analysis-with-pyspark">Job Market Analysis with PySpark</h2>
+<p>I analyzed a 2026 job postings dataset of 21 Parquet files to understand how salary and demand vary across the market. I cleaned the data in PySpark, filled missing salaries with medians, and built interactive Plotly charts.</p>
+<ul>
+<li>Project management specialists have the most postings by far, at about 111,000.</li>
+<li>Salaries show the widest spread around one year of experience, and the spread narrows as education level rises.</li>
+<li>Full-time roles have the tightest salary ranges, while part-time roles have the lowest.</li>
+<li>Remote roles span the widest range of experience requirements, and onsite roles cluster at five to ten years.</li>
+</ul>
+</section>
+</div>
+<div class="work">
+<div class="work-meta">
+<p><strong>Tools</strong><br>
+Python, Plotly</p>
+<p><strong>Code</strong><br>
+<a href="https://github.com/met-ad-688/688-f26-o1-m02-a-sscribner">View the repository</a></p>
+</div>
+<section id="california-tech-job-market-analysis" class="level2 work-body">
+<h2 class="anchored" data-anchor-id="california-tech-job-market-analysis">California Tech Job Market Analysis</h2>
+<p>Four queries on a job postings dataset answered practical career questions about pay, remote work, and hiring timing in California’s technology industry. Each result became a chart with written insights.</p>
+<ul>
+<li>Median salaries for specialized tech occupations range from about $90,000 to $255,000, with most near $150,000.</li>
+<li>ServiceNow leads California companies with 65 remote postings, well ahead of Western Digital and SanDisk at 40 each.</li>
+<li>Posting volume holds steady until a spike in June, then falls to just above baseline.</li>
+<li>Among the metro areas in the data, Washington, DC has the highest average salary, followed closely by New York, with Dallas much lower.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ca-salary-by-occupation.jpg" class="img-fluid figure-img" alt="Bar chart of median salary by specialized tech occupation"></p>
+<figcaption>Median salary by specialized occupation in the technology industry</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ca-remote-jobs.jpg" class="img-fluid figure-img" style="width:60.0%" alt="Bar chart of the top five California companies by remote job postings"></p>
+<figcaption>Top five California companies by remote job postings</figcaption>
+</figure>
+</div>
+</section>
+</div>
 
 
 

@@ -2,37 +2,78 @@
 title: "Curriculum Vitae"
 ---
 
-[Download my CV (PDF) 📄](files/Sara_Scribner_CV.pdf){.btn-pink download="Sara_Scribner_CV.pdf"}
+[Download the PDF](files/Sara_Scribner_CV.pdf){.btn-line download="Sara_Scribner_CV.pdf"}
 
-## Professional Summary
+## Summary
 
 Analyst at Sephora Media Network and Applied Business Analytics graduate student with experience across retail media analytics, store operations, and product management. I clean and analyze data from multiple sources, automate reporting, and translate results for marketing, product, and technology teams.
 
 ## Experience
 
-**Analyst**, Sephora Media Network (Remote) *June 2025 – Present*
+::: {.entry}
+::: {.when}
+June 2025 to present
+:::
+::: {.what}
+### Analyst, Sephora Media Network
+Remote
 
 - Cleaned, collected, and analyzed data from first- and third-party sources and marketing partners
 - Automated and assessed brand-level hindsight and wrap reports for the brand marketing team
 - Collaborated with marketing, media, product, and technology teams to prove the value of Sephora Media Network in a growing retail media space
 - Explained patterns in brand ROAS, CPC, CPM, and CTR so investors could understand campaign performance
+:::
+:::
 
-**Operations Leader**, Sephora (Cape Cod, MA) *August 2024 – Present*  
-*Operations Associate, May 2022 – June 2024*
+::: {.entry}
+::: {.when}
+August 2024 to present  
+Operations Associate, May 2022 to June 2024
+:::
+::: {.what}
+### Operations Leader, Sephora
+Cape Cod, Massachusetts
 
 - Managed a team to support KPIs including sales, client retention, and client conversion
 - Used Tableau to analyze business trends and performance metrics for data-driven decisions
 - Brought the store audit from failing to passing, moving the store from non-compliant to compliant
 - Built inventory management processes that cut storewide shrink by 76%
+:::
+:::
 
-**Product Management Intern, Shopping Experience**, Sephora (Remote) *June 2024 – August 2024*
+::: {.entry}
+::: {.when}
+June to August 2024
+:::
+::: {.what}
+### Product Management Intern, Shopping Experience, Sephora
+Remote
 
 - Conducted market research on objectives and user pain points for a B2C company
 - Wrote and expanded feature requirements, epics, user stories, and acceptance criteria
 - Aligned stakeholders and development teams by translating business needs into product requirements
 - Maintained QA standards through product reviews and bug reporting in Jira
+:::
+:::
 
 ## Education
 
-**Master of Science in Applied Business Analytics**, Boston University *(expected May 2027)*  
-**Bachelor of Arts in Psychology, Minor in Mathematics**, Western Connecticut State University *(May 2024)*
+::: {.entry}
+::: {.when}
+Expected May 2027
+:::
+::: {.what}
+### Master of Science in Applied Business Analytics
+Boston University
+:::
+:::
+
+::: {.entry}
+::: {.when}
+May 2024
+:::
+::: {.what}
+### Bachelor of Arts in Psychology, Minor in Mathematics
+Western Connecticut State University
+:::
+:::

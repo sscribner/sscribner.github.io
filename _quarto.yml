@@ -1,18 +1,20 @@
 project:
   type: website
+  resources:
+    - files/*
+    - images/*
+    - headshot.jpg
 
 website:
   title: "Sara Scribner"
-  favicon: images/favicon.png
   page-footer:
-    center: "Data Analyst"
+    center: "Sara Scribner  ·  2026"
   navbar:
-    background: primary
     pinned: true
-    left:
+    right:
       - text: "Home"
         href: index.qmd
-      - text: "About You"
+      - text: "About"
         href: about.qmd
       - text: "Projects"
         href: projects.qmd
@@ -20,15 +22,11 @@ website:
         href: cv.qmd
       - text: "Contact"
         href: contact.qmd
-    right:
-      - icon: github
-        href: https://github.com/sscribner
-      - icon: linkedin
-        href: https://www.linkedin.com/in/sarajscribner/
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    include-after-body: _fun.html
     toc: false
     smooth-scroll: true

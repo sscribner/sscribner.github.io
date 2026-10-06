@@ -1,0 +1,59 @@
+<script>
+/* Crossword on the About page: hovering a clue lights up its word. */
+(function () {
+  document.querySelectorAll(".xw").forEach(function (xw) {
+    function set(id, on) { xw.querySelectorAll('[data-w~="' + id + '"]').forEach(function (e) { e.classList.toggle("hl", on); }); }
+    xw.querySelectorAll(".xw-clue").forEach(function (cl) {
+      var id = cl.getAttribute("data-w");
+      cl.addEventListener("mouseenter", function () { set(id, true); });
+      cl.addEventListener("mouseleave", function () { set(id, false); });
+    });
+  });
+})();
+
+/* One interaction on the whole site: hover the dark hero once and my name unscrambles. It stays solved. */
+(function () {
+  "use strict";
+  var board = document.getElementById("name-board");
+  if (!board) return;
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var PTS = { A:1,B:3,C:3,D:2,E:1,F:4,G:2,H:4,I:1,J:8,K:5,L:1,M:3,N:1,O:1,P:3,Q:10,R:1,S:1,T:1,U:1,V:4,W:4,X:8,Y:4,Z:10 };
+  var WORDS = ["SARA", "SCRIBNER"], slots = [], tiles = [];
+
+  WORDS.forEach(function (w, wi) {
+    var start = wi === 0 ? 2 : 0;
+    Array.from(w).forEach(function (ch, i) { slots.push({ c: start + i, r: wi, ch: ch }); });
+  });
+  slots.forEach(function (s, i) {
+    var t = document.createElement("span");
+    t.className = "tile"; t.style.setProperty("--i", i); t.setAttribute("aria-hidden", "true");
+    t.innerHTML = s.ch + '<i class="pt">' + PTS[s.ch] + "</i>";
+    board.appendChild(t); tiles.push(t);
+  });
+
+  function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var x = a[i]; a[i] = a[j]; a[j] = x; } return a; }
+  var ident = slots.map(function (_, i) { return i; }), arr, n = 0;
+  do { arr = shuffle(ident.slice()); n++; } while (n < 500 && !arr.every(function (t, s) { return slots[t].ch !== slots[s].ch; }));
+
+  function layout(a, stagger) {
+    a.forEach(function (t, s) {
+      tiles[t].style.transitionDelay = stagger ? (s * 55) + "ms" : "0ms";
+      tiles[t].style.setProperty("--c", slots[s].c);
+      tiles[t].style.setProperty("--r", slots[s].r);
+    });
+  }
+  var solved = false, stage = board.closest(".hero-stage") || board, hint = document.getElementById("name-hint");
+  function solve() {
+    if (solved) return; solved = true;
+    layout(ident, !reduce);
+    if (hint) hint.classList.add("done");
+    ["pointerenter", "focusin", "click"].forEach(function (ev) { stage.removeEventListener(ev, solve); });
+  }
+
+  layout(arr, false);
+  if (reduce) { solve(); return; }
+  ["pointerenter", "focusin", "click"].forEach(function (ev) { stage.addEventListener(ev, solve); });
+  board.setAttribute("tabindex", "0");              /* keyboard users: tab to the board to arrange it */
+  board.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); solve(); } });
+})();
+</script>

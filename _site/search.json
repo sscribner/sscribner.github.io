@@ -1,16 +1,107 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "About this site"
+    "text": "Download the PDF"
+  },
+  {
+    "objectID": "cv.html#summary",
+    "href": "cv.html#summary",
+    "title": "Curriculum Vitae",
+    "section": "Summary",
+    "text": "Summary\nAnalyst at Sephora Media Network and Applied Business Analytics graduate student with experience across retail media analytics, store operations, and product management. I clean and analyze data from multiple sources, automate reporting, and translate results for marketing, product, and technology teams."
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "Curriculum Vitae",
+    "section": "Experience",
+    "text": "Experience\n\n\nJune 2025 to present\n\n\nAnalyst, Sephora Media Network\nRemote\n\nCleaned, collected, and analyzed data from first- and third-party sources and marketing partners\nAutomated and assessed brand-level hindsight and wrap reports for the brand marketing team\nCollaborated with marketing, media, product, and technology teams to prove the value of Sephora Media Network in a growing retail media space\nExplained patterns in brand ROAS, CPC, CPM, and CTR so investors could understand campaign performance\n\n\n\n\n\nAugust 2024 to present\nOperations Associate, May 2022 to June 2024\n\n\nOperations Leader, Sephora\nCape Cod, Massachusetts\n\nManaged a team to support KPIs including sales, client retention, and client conversion\nUsed Tableau to analyze business trends and performance metrics for data-driven decisions\nBrought the store audit from failing to passing, moving the store from non-compliant to compliant\nBuilt inventory management processes that cut storewide shrink by 76%\n\n\n\n\n\nJune to August 2024\n\n\nProduct Management Intern, Shopping Experience, Sephora\nRemote\n\nConducted market research on objectives and user pain points for a B2C company\nWrote and expanded feature requirements, epics, user stories, and acceptance criteria\nAligned stakeholders and development teams by translating business needs into product requirements\nMaintained QA standards through product reviews and bug reporting in Jira"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n\nExpected May 2027\n\n\nMaster of Science in Applied Business Analytics\nBoston University\n\n\n\n\nMay 2024\n\n\nBachelor of Arts in Psychology, Minor in Mathematics\nWestern Connecticut State University"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to My Website",
+    "title": "Sara Scribner",
     "section": "",
-    "text": "Hello, World!\nWelcome to my Quarto website."
+    "text": "Sara Scribner\n  \n  Analyst, Sephora Media Network\n  Master of Science in Applied Business Analytics, Boston University\n  Hover to arrange my name.\n  Sara Scribner\n\n\n\n  I turn retail media and customer data into clear, useful insights, and I care most about the detail that's easy to overlook.\n\n\n\n  Why word games?\n  \n    I love word puzzles, and I think analysis works the same way. You start with scattered pieces, and the work is finding the arrangement that makes sense.\n    That's why my name begins scrambled on this page, and why my skills appear as a crossword on the About page. Hover over the tiles above and they fall into place.\n    See the skills crossword\n  \n\n\n\n  AboutBackground, education, and how I approach data.\n  ProjectsSelected analytics work from my graduate studies.\n  Curriculum VitaeExperience, education, and a downloadable PDF.\n  ContactFor opportunities and collaborations."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’d welcome a conversation about opportunities, collaborations, or data.\nsarascribner02@gmail.com\n\n\nLinkedIn\n\n\nlinkedin.com/in/sarajscribner\n\n\n\n\nGitHub\n\n\ngithub.com/sscribner"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Selected analytics work from my graduate studies."
+  },
+  {
+    "objectID": "projects.html#job-market-analysis-with-pyspark",
+    "href": "projects.html#job-market-analysis-with-pyspark",
+    "title": "Projects",
+    "section": "Job Market Analysis with PySpark",
+    "text": "Job Market Analysis with PySpark\nI analyzed a 2026 job postings dataset of 21 Parquet files to understand how salary and demand vary across the market. I cleaned the data in PySpark, filled missing salaries with medians, and built interactive Plotly charts.\n\nProject management specialists have the most postings by far, at about 111,000.\nSalaries show the widest spread around one year of experience, and the spread narrows as education level rises.\nFull-time roles have the tightest salary ranges, while part-time roles have the lowest.\nRemote roles span the widest range of experience requirements, and onsite roles cluster at five to ten years."
+  },
+  {
+    "objectID": "projects.html#california-tech-job-market-analysis",
+    "href": "projects.html#california-tech-job-market-analysis",
+    "title": "Projects",
+    "section": "California Tech Job Market Analysis",
+    "text": "California Tech Job Market Analysis\nFour queries on a job postings dataset answered practical career questions about pay, remote work, and hiring timing in California’s technology industry. Each result became a chart with written insights.\n\nMedian salaries for specialized tech occupations range from about $90,000 to $255,000, with most near $150,000.\nServiceNow leads California companies with 65 remote postings, well ahead of Western Digital and SanDisk at 40 each.\nPosting volume holds steady until a spike in June, then falls to just above baseline.\nAmong the metro areas in the data, Washington, DC has the highest average salary, followed closely by New York, with Dallas much lower.\n\n\n\n\nMedian salary by specialized occupation in the technology industry\n\n\n\n\n\nTop five California companies by remote job postings"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m an analyst at Sephora Media Network and a graduate student in Applied Business Analytics at Boston University. I began in psychology and mathematics, then moved through store operations and product management. Today I work with data every day to show what is really driving performance.\nI like to see a problem from every side: the stakeholder, the end user, and the business. And I care about amplifying the voice or the detail that is easy to overlook.\nI’m also a word-puzzle person, which is why this site is built like a game. Here’s the reason."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\n\nExpected May 2027\n\n\nMaster of Science in Applied Business Analytics\nBoston University\n\n\n\n\nMay 2024\n\n\nBachelor of Arts in Psychology, Minor in Mathematics\nWestern Connecticut State University"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\nMy skills, set as a crossword. Every answer is a tool or method I use, and hovering over a clue lights up its word.\n\n  \n1S\n2T\nO\n3R\nI\nE\nS\n4J\n5M\nA\nE\nI\nE\nB\n6P\nY\nS\nP\nA\nR\nK\nT\nL\nO\nA\n7R\nE\nS\nE\nA\nR\nC\nH\nI\nA\nT\nC\nU\nI\n8P\nS\n9A\nN\nA\nL\nY\nS\nI\nS\nG\nT\nH\n10P\nL\nO\nT\nL\nY\nN\n  \n  \n    Across\n    \nUser ___ with acceptance criteria (7) Answer: Stories.\nSpark's Python interface, used to process large datasets (7) Answer: Pyspark.\nWhere every product question starts (8) Answer: Research.\nTurning raw numbers into decisions (8) Answer: Analysis.\nLibrary for interactive charts (6) Answer: Plotly.\n    \n    Down\n    \nDashboard tool I use to track store and campaign performance (7) Answer: Tableau.\nAutomated wrap reports for brand teams (9) Answer: Reporting.\nWhere I log bugs and manage QA (4) Answer: Jira.\nROAS, CPC, CPM, and CTR (7) Answer: Metrics.\nLanguage behind my data projects (6) Answer: Python."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About",
+    "section": "Interests",
+    "text": "Interests\nI’m drawn to retail media and campaign analytics, product management and customer experience, machine learning and predictive modeling, big data processing with Apache Spark, and data storytelling."
+  },
+  {
+    "objectID": "about.html#career-goals",
+    "href": "about.html#career-goals",
+    "title": "About",
+    "section": "Career Goals",
+    "text": "Career Goals\nI’m always looking to advance my knowledge and combine business, research, and technical skills to help teams make better decisions, especially in retail, media, and consumer products. I want to build analysis that is accurate, clear, and centered on the client."
+  },
+  {
+    "objectID": "about.html#beyond-the-data",
+    "href": "about.html#beyond-the-data",
+    "title": "About",
+    "section": "Beyond the Data",
+    "text": "Beyond the Data\nAway from the screen, you’ll find me with matcha, my cats, or a good book.\n\n\n\n\nMatcha\nI love matcha, and this was one of my favorites!\n\n\n\n\n\nCats\nMy cats, Leite and Mabel!\n\n\n\n\n\nBooks\nMy favorite bookshop in Montreal (I love to read)."
   }
 ]
